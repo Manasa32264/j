@@ -78,13 +78,13 @@ class student {
 
         for(i=0;i<s.length;i++){
             if(hs1==s[i].s1){
-                System.out.println("\n Subject-1 topper,s USN is-"+s[i].usn+"and has secuered "+hs1+"marks");
+                System.out.println("\n Subject-1 topper's USN is-"+s[i].usn+"and has secuered "+hs1+"marks");
             }
             if(hs2==s[i].s2){
-                System.out.println("\n Subject-1 topper,s USN is-"+s[i].usn+"and has secuered "+hs2+"marks");
+                System.out.println("\n Subject-1 topper's USN is-"+s[i].usn+"and has secuered "+hs2+"marks");
             }
-            if(hs3==s[i].s1){
-                System.out.println("\n Subject-1 topper,s USN is-"+s[i].usn+"and has secuered "+hs3+"marks");
+            if(hs3==s[i].s3){
+                System.out.println("\n Subject-1 topper's USN is-"+s[i].usn+"and has secuered "+hs3+"marks");
             }
             if(t==s[i].total){
                 System.out.println("\n batch topper,s USN is-"+s[i].usn+"and has secuered "+t+"marks");

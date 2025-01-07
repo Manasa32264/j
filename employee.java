@@ -40,13 +40,14 @@ import java.util.*;
 
         }else{
             double tax=0.30*grosspay;
-            TotalTax=(0.2*tax+tax);
+            TotalTax=(0.02*tax+tax);
         }
         return(grosspay-TotalTax);
     }
 
     void display(){
-        System.out.println(name+"\t\t"+ID+"\t\t"+Department+"\t\t"+basicpay+"\t\t"+TotalTax+"\t\t"+netpay);
+       // System.out.println(name+"\t\t"+ID+"\t\t"+Department+"\t\t"+basicpay+"\t\t"+TotalTax+"\t\t"+netpay);
+       System.out.printf("%-15s %-20s %-20s %-10.2f %-10.2f %-10.2f\n",name,ID,Department,basicpay,TotalTax,netpay);
     }
 
 
@@ -66,7 +67,7 @@ import java.util.*;
             e[i].details();
         }
 
-        System.out.println("Name\t\t ID\t\tDepartment\t\tBasicPay\tTotalTax\t\tNetpay");
+        System.out.printf("%-15s %-20s %-20s %-10s %-10s %-10s\n","Name", "ID","Department","BasicPay","TotalTax","Netpay");
         for(i=0;i<n;i++){
             e[i].display();
         }

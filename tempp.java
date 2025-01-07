@@ -40,7 +40,7 @@
                     System.out.println("Highedst temperature was"+high+" on the day"+(j+1)+"in the city"+(i+1));
                 }
                 if(low==arr[i][j]){
-                    System.out.println("Highedst temperature was"+low+" on the day"+(j+1)+"in the city"+(i+1));
+                    System.out.println("Lowest temperature was"+low+" on the day"+(j+1)+"in the city"+(i+1));
                 }
                 
             }

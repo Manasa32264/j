@@ -53,7 +53,7 @@ import java.util.*;
     
 }
 
-class employee_1{
+ class employee_1{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n,i;

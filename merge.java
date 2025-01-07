@@ -35,7 +35,17 @@ for(int i=0;i<size2;i++){
 
 }
 
-Arrays.sort(mergedarray);
+//Arrays.sort(mergedarray);
+
+for(int i=0;i<mergedarray.length-1;i++){
+    for(int j=0;j<mergedarray.length-1-i;j++){
+        if(mergedarray[j]>mergedarray[j+1]){
+            int temp=mergedarray[j];
+            mergedarray[j]=mergedarray[j+1];
+            mergedarray[j+1]=temp;
+        }
+    }
+}
 System.out.println("print the merged array");
 for(int i=0;i<mergedarray.length;i++){
     System.out.println(mergedarray[i]);
